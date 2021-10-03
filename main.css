@@ -6,7 +6,7 @@
 
 body {
   display: flex;
-  background-image: url("/myself_site/wakamiya.jpg");
+  background-image:url("/myself_site/wakamiya.jpg");
   overflow-x : hidden;
 overflow-y : auto;
 }
