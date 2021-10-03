@@ -6,7 +6,7 @@
 
 body {
   display: flex;
-  background-image:url("/myself_site/wakamiya.jpg");
+  background-image:url("https://github.com/wakamy/myself_site/blob/main/wakamiya.jpg?raw=true");
   overflow-x : hidden;
 overflow-y : auto;
 }
