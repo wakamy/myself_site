@@ -120,8 +120,8 @@ subu{
   border: solid 2px rgb(0, 0, 0);
   position: relative;
   height: 200%;
-  width: %;
-  left: 30%
+  width: 100%;
+  left: 30%;
 }
 .photo_box{
   position: relative;
@@ -133,6 +133,9 @@ subu{
   
   body {
     background-image:url("https://github.com/wakamy/myself_site/blob/main/wakamiya.jpg?raw=true");
+    overflow-x: hidden;
+    height: 100%;
+    max-width: 480px;
   }
   
   .nav-wrapper {
@@ -161,15 +164,11 @@ subu{
     border-radius: 50%;
   }
   
-  
   .contents-wrapper {
     z-index:2;
-    position:absolute;
+    position:relative;
+    left: 10%;
     height: auto;
-    width: auto;
-    position: absolute;
-    margin-left: 0;
-    margin-right: auto;
     text-align: center;
   }
   
@@ -198,8 +197,8 @@ subu{
   }
   .face-photo {
     width: 100%;
-    height: 444px;
-    margin-bottom: 23px;
+    height: 380px;
+    margin:auto;
     position: relative;
     top: 30px;
   }
@@ -207,7 +206,7 @@ subu{
     margin:auto;
   }
   .profile-english {
-    width: 300px;
+    width: auto;
     margin:auto;
   }
   .mail {
@@ -219,29 +218,27 @@ subu{
     width: 100%;
   }
   .news-heading {
-    margin-bottom: 30px;
+    margin: 0 auto;
     text-align: center;
     font-size: 16px;
     font-weight: normal;
     border-bottom: 1px solid black;
   }
   .news-list {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 0 auto;
     border-bottom: 1px solid black;
   }
   .news-list-title {
-    margin-top: 5px;
-    margin-bottom: 4px;
+    margin: 0 auto;
     border-bottom: 1px solid black;
     
   }
   .news-list-description {
-    margin-bottom: 30px;
-    margin-left: 80px;
+    margin: 10px 0px;
+    text-align: left;
     
   }
-  subu{
+  .subu{
     height: 100%;
     width: 82%;
     position: relative;
@@ -253,8 +250,8 @@ subu{
     border: solid 2px rgb(0, 0, 0);
     position: relative;
     height: 200%;
-    width: %;
-    left: 30%
+    width: 100%;
+    left: 30%;
   }
   .photo_box{
     position: relative;
