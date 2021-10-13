@@ -37,15 +37,7 @@ overflow-y : auto;
   width: 82%;
   position: relative;
   left: 18%
-}
-
-.contents-wrapper2{
-  border: solid 2px rgb(0, 0, 0);
-  height: 100%;
-  width: 280%;
-  position: relative;
-  top:100px;
-  left: 18%
+  
 }
 .heading {
   margin-top: 35px;
@@ -123,10 +115,25 @@ subu{
   width: 100%;
   left: 30%;
 }
+.content-photo{
+  text-align : center 
+}
 .photo_box{
+  margin: 30px;
   position: relative;
+  width: 40%;
 }
 
+.contents-wrapper-hyo{
+  height: 100%;
+  width: 82%;
+  position: relative;
+  left: 18%;
+  text-align:center;
+}
+table{
+  margin:auto;
+}
 
 
 @media screen and (max-width:480px) {
@@ -256,5 +263,10 @@ subu{
   .photo_box{
     position: relative;
   }  
+
+  .photo_box{
+    position: relative;
+    width: 70%;
+  }
  
 }
