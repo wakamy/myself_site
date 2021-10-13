@@ -19,6 +19,10 @@ overflow-y : auto;
   margin-top: 43px;
   margin-left: 18px;
 }
+.nav-photo{
+  width: 90%;
+  margin-bottom: 20px ;
+}
 .nav-content {
   display: flex;
   margin-bottom: 31px;
